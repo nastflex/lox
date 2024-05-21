@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Новое заявление</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Новое заявление</h1>
+    <form id="claimForm">
+        <label for="carNumber">Номер автомобиля:</label>
+        <input type="text" id="carNumber" name="carNumber" required><br>
+        <label for="description">Описание нарушения:</label>
+        <textarea id="description" name="description" required></textarea><br>
+        <button type="submit">Отправить</button>
+        <p id="errorMessage"></p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
